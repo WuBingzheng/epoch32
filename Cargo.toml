@@ -1,0 +1,18 @@
+[package]
+name = "epoch32"
+version = "0.1.0"
+edition = "2021"
+authors = ["Wu Bingzheng <wubingzheng@gmail.com>"]
+description = "32-bit Epoch with specified starting year."
+license = "MIT"
+repository = "https://github.com/WuBingzheng/epoch32"
+documentation = "https://docs.rs/epoch32"
+keywords = ["epoch", "timestamp"]
+categories = ["time"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.serde]
+version = "1.0"
+optional = true
+default-features = false
